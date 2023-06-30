@@ -1,0 +1,38 @@
+<main>
+    <div class="wrapper">
+        <section class="wrapper-movie">
+            <h1>Film</h1>
+            <div class="movie"></div>
+        </section>
+        <section class="wrapper-comment">
+            <h3>Leave a comment</h3>
+            <form class="commentForm" id="commentForm">
+                <fieldset>
+                    <label for="prenom">Firstname:</label>
+                    <input type="text" id="prenom" required>
+                    <label for="nom">Lastname:</label>
+                    <input type="text" id="nom" required>
+                    <label for="courriel">Mail:</label>
+                    <input type="email" id="courriel" required>
+                    <label for="pays">Country:</label>
+                    <select id="pays" required>
+                        <option value="default">-- Country --</option>
+                    </select>
+                    <label for="province">Province:</label>
+                    <select id="province" required>
+                        <option value="default">-- Province --</option>
+                    </select>
+                    <label for="ville">City:</label>
+                    <select id="ville" required>
+                        <option value="default">-- City --</option>
+                    </select>
+                    <label for="commentaire">Comment</label>
+                    <textarea id="commentaire" cols="30" rows="5" required></textarea>
+                    <button type='submit'>submit</button>
+                </fieldset>
+            </form>
+            <span class="error"></span>
+        </section>
+    </div>
+    <section class="comment"></section>
+</main>

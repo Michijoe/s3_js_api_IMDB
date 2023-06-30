@@ -1,0 +1,34 @@
+<header>
+    <div class="topFilterWrapper">
+        <form id="displayForm" class="displayForm">
+            <input type="radio" id="list" name="displayInput" value="list" checked>
+            <label for="list">List</label>
+            <input type="radio" id="grid" name="displayInput" value="grid">
+            <label for="grid">Grid</label>
+        </form>
+        <form id="sortForm" class="sortForm">
+            <select id="sortSelect">
+                <option id="yearReleaseAsc" value="yearReleaseAsc">Year release ascending</option>
+                <option id="yearReleaseDesc" value="yearReleaseDesc">Year release descending</option>
+                <option id="titleAsc" value="titleAsc">Title ascending</option>
+                <option id="titleDesc" value="titleDesc">Title descending</option>
+            </select>
+        </form>
+    </div>
+
+</header>
+<div class="wrapper">
+    <aside>
+        <form id="searchForm" class="searchForm">
+            <label for="search">Search:<input type="text" name="search" id="search"></label>
+            <button id="searchButton">Go</button>
+            <button id="resetButton">Reset</button>
+        </form>
+
+        <form id="filterForm" class="filterForm">
+        </form>
+
+    </aside>
+    <main class="list">
+    </main>
+</div>
